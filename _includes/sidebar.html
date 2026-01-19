@@ -5,6 +5,11 @@
 <!-- Toggleable sidebar -->
 <div class="sidebar" id="sidebar">
   <div class="sidebar-item">
+    {% if site.logo %}
+      <a href="{{ '/' | relative_url }}">
+        <img src="{{ site.logo | relative_url }}" alt="{{ site.title }} Logo" class="sidebar-logo">
+      </a>
+    {% endif %}
     <p>{{ site.description }}</p>
   </div>
 

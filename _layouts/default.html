@@ -13,7 +13,12 @@
       <div class="masthead">
         <div class="container">
           <h3 class="masthead-title">
-            <a href="{{ '/' | relative_url }}" title="Home">{{ site.title }}</a>
+            <a href="{{ '/' | relative_url }}" title="Home">
+              {% if site.logo %}
+                <img src="{{ site.logo | relative_url }}" alt="{{ site.title }} Logo" class="site-logo">
+              {% endif %}
+              {{ site.title }}
+            </a>
             <small>{{ site.tagline }}</small>
           </h3>
         </div>

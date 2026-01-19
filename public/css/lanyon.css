@@ -107,6 +107,12 @@ h6 {
 .masthead-title a {
   color: #505050;
 }
+.site-logo {
+  height: 1.2rem;
+  vertical-align: middle;
+  margin-right: .5rem;
+  margin-top: -3px; /* Subtle adjustment for better alignment with text */
+}
 .masthead-title small {
   font-size: 75%;
   font-weight: 400;
@@ -164,6 +170,12 @@ h6 {
 .sidebar a {
   font-weight: normal;
   color: #fff;
+}
+.sidebar-logo {
+  display: block;
+  width: 3.5rem;
+  height: 3.5rem;
+  margin: 0 auto 1rem;
 }
 .sidebar-item {
   padding: 1rem;
