@@ -467,6 +467,42 @@ a.pagination-item:hover {
  * Based on colors from Base16: http://chriskempson.github.io/base16/#default.
  */
 
+/* Home Hero Banner */
+.home-hero {
+  position: relative;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.85)), url('/public/img/hero-banner.png');
+  background-size: cover;
+  background-position: center;
+  padding: 4rem 2rem;
+  margin: -1rem -1rem 2rem -1rem; /* Negative margin to bleed a bit or align with container */
+  border-radius: 10px;
+  text-align: center;
+  border: 1px solid #eee;
+}
+
+.hero-content h1 {
+  margin: 0;
+  font-size: 2rem;
+  color: #313131;
+}
+
+.hero-content p {
+  margin: 0.5rem 0 0;
+  font-size: 1.1rem;
+  color: #717171;
+  font-family: "Inter", sans-serif;
+}
+
+/* Adjustments for mobile */
+@media (max-width: 48em) {
+  .home-hero {
+    padding: 2rem 1rem;
+  }
+  .hero-content h1 {
+    font-size: 1.5rem;
+  }
+}
+
 /* Red */
 .theme-base-08 .sidebar,
 .theme-base-08 .sidebar-toggle:active,

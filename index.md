@@ -3,7 +3,12 @@ layout: default
 title: Home
 ---
 
-# 🧬 Welcome to OMNIA Lab – Omics and Multilevel Integrative Analysis Laboratory
+<div class="home-hero">
+  <div class="hero-content">
+    <h1>🧬 Welcome to OMNIA Lab</h1>
+    <p>Omics and Multilevel Integrative Analysis Laboratory</p>
+  </div>
+</div>
 
 We are a computational biomedical research lab exploring how different layers of biology fit together at the Pontificia Universidad Católica de Chile in Santiago, Chile.
 Using multi-omics data, quantitative methods, and integrative modeling, we study complex disease phenotypes across molecular, clinical, and cognitive levels.
