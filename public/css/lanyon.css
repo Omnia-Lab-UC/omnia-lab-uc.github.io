@@ -106,18 +106,23 @@ h6 {
 }
 .masthead-title a {
   color: #505050;
+  display: inline-flex;
+  align-items: center;
+}
+.masthead-title a:hover {
+  text-decoration: none;
 }
 .site-logo {
-  height: 1.2rem;
-  vertical-align: middle;
-  margin-right: .5rem;
-  margin-top: -3px; /* Subtle adjustment for better alignment with text */
+  height: 2.5rem;
+  width: auto;
+  margin-right: .75rem;
 }
 .masthead-title small {
   font-size: 75%;
   font-weight: 400;
   color: #c0c0c0;
   letter-spacing: 0;
+  display: block; /* Ensure tagline is on its own line or handled properly */
 }
 
 @media (max-width: 48em) {
@@ -179,6 +184,7 @@ h6 {
 }
 .sidebar-item {
   padding: 1rem;
+  text-align: center;
 }
 .sidebar-item p:last-child {
   margin-bottom: 0;
