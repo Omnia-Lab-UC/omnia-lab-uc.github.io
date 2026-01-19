@@ -3,15 +3,18 @@ title: Omnia Lab
 tagline: "&#129516;"
 description: "Omics and Multilevel Integrative Analysis Laboratory."
 url: https://omnia-lab-uc.github.io
-baseurl: /
+baseurl: ""
 paginate: 5
 permalink: pretty
 
 # About/contact
 author:
-  name: Tomas Gonzalez Zarzar
+  name: Dr. Tomás González Zarzar
   url:
   email: tgonza@uc.cl
+  github: omnia-lab-uc
+  twitter:
+  google_scholar:
 
 # Gems
 plugins:

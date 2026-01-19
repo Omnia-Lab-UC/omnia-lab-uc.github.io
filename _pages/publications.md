@@ -1,7 +1,13 @@
 ---
 layout: page
 title: Publications
+permalink: /publications/
 ---
+
+For a full list of publications and citations, please visit [Google Scholar](https://scholar.google.com/).
+
+**González Zarzar, T.**, & Silva Gallardo, C. (2025). Care and Solidarity as Praxis in Chile's Sacrifice Zones. [International Journal of Feminist Approaches to Bioethics, 18(1), 34–60.](https://doi.org/10.3138/ijfab-2025-0004)
+
 **González Zarzar, T.**, Palmiero, N. E., Kim, K., Shen, L., & Hall, M. A. (2024). Differential effects of environmental exposures on clinically relevant endophenotypes between sexes. [Scientific Reports, 14, 21453.](https://doi.org/10.1038/s41598-024-72180-x)
 
 Koch, S. L., Zaidi, A., **González, T.**, Shriver, M. D., & Jablonski, N. G. (2024). The Trotter collection: A review of Mildred Trotter's hair research and an update for studies of human variation. [American Journal of Biological Anthropology, e24930.](https://doi.org/10.1002/ajpa.24930)
