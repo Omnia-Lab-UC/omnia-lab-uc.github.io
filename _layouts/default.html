@@ -17,9 +17,11 @@
               {% if site.logo %}
                 <img src="{{ site.logo | relative_url }}" alt="{{ site.title }} Logo" class="site-logo">
               {% endif %}
-              {{ site.title }}
+              <span class="masthead-title-container">
+                <span class="masthead-title-text">{{ site.title }}</span>
+                <small>{{ site.tagline }}</small>
+              </span>
             </a>
-            <small>{{ site.tagline }}</small>
           </h3>
         </div>
       </div>
