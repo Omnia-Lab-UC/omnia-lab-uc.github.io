@@ -1,8 +1,8 @@
 # Setup
-title: SHAB Lab
+title: Omnia Lab
 tagline: "&#129516;"
-description: "The Situated Health and Biology Lab."
-url: https://shab-lab.github.io
+description: "Omics and Multilevel Integrative Analysis Laboratory."
+url: https://omnia-lab-uc.github.io
 baseurl: /
 paginate: 5
 permalink: pretty
