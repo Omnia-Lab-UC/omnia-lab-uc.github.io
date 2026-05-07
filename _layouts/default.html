@@ -3,36 +3,15 @@
 
   {% include head.html %}
 
-  <body>
+  <body data-page="{{ page.slug | default: 'home' }}">
+    {% include site-header.html %}
 
-    {% include sidebar.html %}
+    <main class="site-main">
+      {{ content }}
+    </main>
 
-    <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
-         content to avoid any CSS collisions with our real content. -->
-    <div class="wrap">
-      <div class="masthead">
-        <div class="container">
-          <h3 class="masthead-title">
-            <a href="{{ '/' | relative_url }}" title="Home">
-              {% if site.logo %}
-                <img src="{{ site.logo | relative_url }}" alt="{{ site.title }} Logo" class="site-logo">
-              {% endif %}
-              <span class="masthead-title-container">
-                <span class="masthead-title-text">{{ site.title }}</span>
-                <small>{{ site.tagline }}</small>
-              </span>
-            </a>
-          </h3>
-        </div>
-      </div>
+    {% include site-footer.html %}
 
-      <div class="container content">
-        {{ content }}
-      </div>
-    </div>
-
-    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
-
-    <script src='{{ "/public/js/script.js" | relative_url }}'></script>
+    <script src="{{ '/public/js/site.js' | relative_url }}"></script>
   </body>
 </html>

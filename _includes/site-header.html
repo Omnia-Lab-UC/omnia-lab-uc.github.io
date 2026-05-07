@@ -1,0 +1,21 @@
+{% assign active = page.slug | default: 'home' %}
+<header class="site-header">
+  <a class="brand" href="{{ '/' | relative_url }}" aria-label="Omnia Lab home">
+    {% include brand-mark.html size=20 %}
+    <span>omnia.lab</span>
+  </a>
+  <nav class="nav" aria-label="Primary navigation">
+    <a href="{{ '/' | relative_url }}"{% if active == 'home' %} class="active"{% endif %}>~/home</a>
+    <a href="{{ '/research/' | relative_url }}"{% if active == 'research' %} class="active"{% endif %}>~/research</a>
+    <a href="{{ '/team/' | relative_url }}"{% if active == 'team' %} class="active"{% endif %}>~/team</a>
+    <a href="{{ '/publications/' | relative_url }}"{% if active == 'publications' %} class="active"{% endif %}>~/pubs</a>
+    <a href="{{ '/positions/' | relative_url }}"{% if active == 'positions' %} class="active"{% endif %}>~/join</a>
+    <a href="{{ '/resources/' | relative_url }}"{% if active == 'resources' %} class="active"{% endif %}>~/resources</a>
+    <a href="{{ '/contact/' | relative_url }}"{% if active == 'contact' %} class="active"{% endif %}>~/contact</a>
+  </nav>
+  <span class="meta">[v.2.4]</span>
+</header>
+<div class="path-bar">
+  <span><span class="accent-dot">●</span> running &mdash; puc.cl / iibm / santiago</span>
+  <span>$ cat ./{{ active }}.md</span>
+</div>
