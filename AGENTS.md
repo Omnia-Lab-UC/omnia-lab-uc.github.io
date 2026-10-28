@@ -6,7 +6,7 @@ This repository is a Jekyll site for the Omnia Lab website, based on the Lanyon 
 
 ## Build, Test, and Development Commands
 
-Use Bundler so Jekyll and plugins match `Gemfile.lock`.
+Use Bundler so Jekyll and plugins match `Gemfile.lock`. The `Gemfile` uses the `github-pages` gem so local builds match the GitHub Pages build. On Nix, `flake.nix` provides Ruby 3.3 and Bundler; enter it with `nix develop` or direnv (`.envrc`), and gems install into `vendor/bundle`.
 
 ```bash
 bundle install
