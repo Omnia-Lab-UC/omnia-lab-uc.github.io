@@ -11,6 +11,12 @@ slug: resources
   <h1 class="h1-display">Lab <em>resources.</em></h1>
 </div>
 
+<div class="section-title">./Wiki</div>
+
+<div class="row"><div class="key">wiki</div><div class="val body">The <a href="https://omnia-lab-uc.github.io/lab_wiki/">lab wiki</a> collects onboarding guides, tutorials, protocols, computing and data notes, and day-to-day lab information.<br>Start with the <a href="https://omnia-lab-uc.github.io/lab_wiki/papers/">papers</a> section for reading lists on the methods we use.</div></div>
+
+<div class="row"><div class="key">repo</div><div class="val body">Lab members can contribute through the <a href="https://github.com/Omnia-Lab-UC/lab_wiki">lab_wiki repository</a> on GitHub.</div></div>
+
 <div class="section-title">./Lab Manual</div>
 
 <div class="row"><div class="key">manual</div><div class="val body">The lab manual contains our policies, expectations, and guides for working in the lab.<br>You can download the latest version here: <a href="https://github.com/Omnia-Lab-UC/lab_manual/releases/latest/download/manual.pdf">lab manual</a></div></div>
@@ -25,4 +31,4 @@ slug: resources
 
 <div class="section-title">./Computing</div>
 
-<div class="row"><div class="key">computing</div><div class="val body">Information about our local clusters and computing resources for lab members.</div></div>
+<div class="row"><div class="key">computing</div><div class="val body">Information about our local clusters and computing resources for lab members is in the <a href="https://omnia-lab-uc.github.io/lab_wiki/computing/">computing section</a> of the lab wiki.</div></div>
