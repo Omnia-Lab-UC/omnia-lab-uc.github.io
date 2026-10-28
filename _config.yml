@@ -27,3 +27,18 @@ google_analytics_id: #UA-XXXX-Y
 
 include:
   - _pages
+
+# Keep development tooling out of the published site
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - flake.nix
+  - flake.lock
+  - AGENTS.md
+  - CLAUDE.md
+  - README.md
+  - LICENSE.md
+  - handoff
+  - openspec
