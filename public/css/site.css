@@ -203,6 +203,52 @@ a:hover {
   color: var(--ink-2);
 }
 
+.row .val.person {
+  display: flex;
+  gap: 22px;
+  align-items: center;
+}
+
+.row .val.person .avatar {
+  flex: none;
+  width: 80px;
+  height: 80px;
+  padding: 4px;
+  border: 1px solid var(--rule);
+  border-radius: 50%;
+  object-fit: cover;
+  transition: border-color 0.2s ease;
+}
+
+.row .val.person .avatar.initials {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--paper-2);
+  background-clip: content-box;
+  color: var(--ink-2);
+  font-family: var(--font-mono);
+  font-size: 17px;
+  letter-spacing: 0.04em;
+}
+
+.row .val.person .avatar:hover {
+  border-color: var(--accent);
+}
+
+.row .val.person .name {
+  display: block;
+  font-size: 18px;
+}
+
+.row .val.person .role {
+  display: block;
+  margin-top: 2px;
+  font-size: 15px;
+  line-height: 1.55;
+  color: var(--ink-3);
+}
+
 .section-title {
   font-size: 12px;
   color: var(--ink-3);
@@ -400,5 +446,20 @@ p a,
 
   ul.bare li .v {
     text-align: left;
+  }
+
+  .row .val.person {
+    align-items: flex-start;
+    gap: 16px;
+  }
+
+  .row .val.person .avatar {
+    width: 64px;
+    height: 64px;
+    padding: 3px;
+  }
+
+  .row .val.person .avatar.initials {
+    font-size: 15px;
   }
 }
