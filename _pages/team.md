@@ -15,10 +15,10 @@ slug: team
 <div class="row"><div class="key">PI</div><div class="val body"><strong>Dr. Tomás González Zarzar</strong>: Assistant Professor of the School of Medicine and the Institute for Biological and Medical Engineering at Pontificia Universidad Católica de Chile.</div></div>
 
 <div class="section-title">./Researchers & Students</div>
+<div class="row"><div class="key">Research Assistant</div><div class="val body"><strong>Paulina Massé</strong>: Bioengineering, Universidad Adolfo Ibáñez. Since 2026.</div></div>
+<div class="row"><div class="key">Undergraduate Student</div><div class="val body"><strong>Emilia Magni</strong>: Since 2026.</div></div>
 
-*We are currently building our team!*
-
-If you are a student at UC interested in computational biology, multi-omics, or biomedical informatics, please check our [open positions]({{ '/positions/' | relative_url }}).
+*We are growing!* If you are a student at UC interested in computational biology, multi-omics, or biomedical informatics, please check our [open positions]({{ '/positions/' | relative_url }}).
 
 <div class="section-title">./Alumni</div>
 
